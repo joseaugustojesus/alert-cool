@@ -1,0 +1,16 @@
+{
+    "name": "devjesus/alert-cool",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devjesus\\AlertCool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "José Augusto L. G. de Jesus",
+            "email": "joseaugustolimajesus@gmail.com"
+        }
+    ],
+    "require": {}
+}
