@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Devjesus\\AlertCool\\' => array($baseDir . '/src'),
+    'AmstedMaxion\\' => array($baseDir . '/src'),
 );

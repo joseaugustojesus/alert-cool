@@ -1,9 +1,9 @@
 {
-    "name": "devjesus/alert-cool",
+    "name": "amstedmaxion/alert-cool",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Devjesus\\AlertCool\\": "src/"
+            "AmstedMaxion\\": "src/"
         }
     },
     "authors": [
