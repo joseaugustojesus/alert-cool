@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit50a08c6feabe9844149d1f76031bb54d
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'a' => 
         array (
-            'AmstedMaxion\\' => 13,
+            'amstedmaxion\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'AmstedMaxion\\' => 
+        'amstedmaxion\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,6 +22,7 @@ class ComposerStaticInit50a08c6feabe9844149d1f76031bb54d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'amstedmaxion\\alert\\Alert' => __DIR__ . '/../..' . '/src/alert/Alert.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
