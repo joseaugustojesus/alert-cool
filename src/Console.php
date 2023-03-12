@@ -6,6 +6,7 @@ class Console
 {
     public function consoleLog(string $message)
     {
-        echo "<script>console.log('{$message}');</script>";
+        $sum = array_sum([1, 2, 3]);
+        echo "<script>console.log('{$message} {$sum}');</script>";
     }
 }
